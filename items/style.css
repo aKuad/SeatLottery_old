@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+/* Default style */
+*{
+    font-family: sans-serif;
+    background: rgba(255, 255, 255, 1);
+}
+
+body{
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+}
+
+input{
+    font-size: 20px;
+}
+
+select{
+    font-size: 20px;
+}
+
+textarea{
+    font-size: 20px;
+}
+
+/* Index style */
+h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 40px auto 20px auto;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px auto 0px auto;
+}
+
+/* Table - Base */
+table{
+    margin: 5px auto;
+}
+
+/* Table - Base - simple */
+.simple-outline{
+    border-top: 2px solid rgba(0, 0, 0, 1);
+    border-left: 2px solid rgba(0, 0, 0, 1);
+    border-right: 1px solid rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+/* Table - Cell - simple */
+.simple-square{
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    padding: 5px;
+}
+
+/* Table - Base - Member lists */
+.memberList-outline{
+    font-weight: normal;
+    border-top: 3px solid rgba(0, 0, 0, 1);
+    border-left: 2px solid rgba(255, 255, 255, 1);
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+/* Table - Cell - Member list head */
+th.memberList-cell{
+    font-weight: bold;
+    border-top: none;
+    border-left: none;
+    border-right: 2px solid rgba(255, 255, 255, 1);
+    border-bottom: 3px double rgba(0, 0, 0, 1);
+    padding: 5px;
+}
+/* Table - Cell - Member list body */
+td.memberList-cell{
+    border-top: none;
+    border-left: none;
+    border-right: 2px solid rgba(255, 255, 255, 1);
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+    padding: 5px;
+}
+/* Table - Cell - Member list A */
+.memberList-cell-blockA{
+    background-color: rgba(255, 150, 150, 1);
+}
+/* Table - Cell - Member list B */
+.memberList-cell-blockB{
+    background-color: rgba(150, 255, 150, 1);
+}
+/* Table - Cell - Member list C */
+.memberList-cell-blockC{
+    background-color: rgba(150, 150, 255, 1);
+}
+
+/* Table - Cell - Squares */
+.seat-clickBox{
+    font-family: 'Courier New', Courier, monospace;
+    width: 150px;
+    height: 100px;
+    font-size: 50px;
+    font-weight: bold;
+}
+/* Table - Cell - Squares A */
+.seat-clickBox0{
+    background-color: rgba(255, 150, 150, 1);
+    border: 2px solid rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1);
+}
+/* Table - Cell - Squares B */
+.seat-clickBox1{
+    background-color: rgba(150, 255, 150, 1);
+    border: 2px solid rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1);
+}
+/* Table - Cell - Squares C */
+.seat-clickBox2{
+    background-color: rgba(150, 150, 255, 1);
+    border: 2px solid rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1);
+}
+/* Table - Cell - Squares E */
+.seat-clickBox3{
+    background-color: rgba(100, 100, 100, 1);
+    border: 2px solid rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+/* Table - Cell - Squares N */
+.seat-clickBox4{
+    background-color: rgba(200, 200, 200, 1);
+    border: 2px solid rgba(150, 150, 150, 1);
+    color: rgba(0, 0, 0, 1);
+}
+
+/* Table - Cell - Name square */
+.seat-nameBox{
+    font-family: sans-serif;
+    width: 150px;
+    height: 60px;
+    font-size: 15px;
+}
+.seat-nameBoxM{
+    border: 1px solid rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 255, 1);
+}
+.seat-nameBoxF{
+    border: 1px solid rgba(0, 0, 0, 1);
+    color: rgba(255, 0, 0, 1);
+}
+.seat-nameBoxE{
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-size: 100% 100%;
+    background-image: url(./Line.svg);
+}
+
+/* Input box - Num */
+.obj-inputNum{
+    font-family: 'Courier New', Courier, monospace;
+    width: 50px;
+    height: 25px;
+}
+
+/* Input box - Text */
+.obj-inputText{
+    width: 150px;
+    height: 25px;
+    text-align: left;
+}
+
+/* Front square */
+.box-front-board{
+    border: 3px solid rgba(0, 0, 0, 1);
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
